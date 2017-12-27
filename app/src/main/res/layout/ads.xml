@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:id="@+id/activity_seting"
+
+    android:background="@drawable/bekgron"
+    android:padding="10dp"
+    android:layout_marginBottom="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scrollView2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/radio"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <WebView android:id="@+id/webView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ads"
+        android:layout_above="@+id/btnTutor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp" />
+
+    <Button android:textSize="14sp"
+        android:background="@drawable/radio"
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Impresion Tool"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button android:textSize="14sp"
+        android:background="@drawable/radio"
+        android:id="@+id/btnSeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting Unit ID ads"
+        android:layout_above="@+id/btnStart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
+    <Button android:textSize="14sp"
+        android:background="@drawable/radio"
+        android:id="@+id/btnTutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baca Aturan Pakai"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/btnSeting"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

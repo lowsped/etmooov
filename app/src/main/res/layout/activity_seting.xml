@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bekgron"
+    android:padding="10dp"
+    android:textStyle="italic"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:textStyle="italic"
+        android:layout_width="match_parent" android:layout_height="283dp" android:layout_margin="5dp">
+        <TextView android:textStyle="bold|italic"
+            android:textColor="@color/blek"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="insert unit ads Banner :" />
+        <EditText android:textColor="@color/blek" android:id="@+id/edtBanner2"
+            android:background="@drawable/radio"
+            android:textStyle="italic"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="ca-app-pub-3940256099942544/6300978111"
+            android:hint="ca-app-pub-3940256099942544/6300978111"
+            android:singleLine="false" android:selectAllOnFocus="false" />
+        <TextView android:textStyle="bold|italic"
+            android:textColor="@color/blek"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="insert unit ads Interistial :" />
+        <EditText android:textColor="@color/blek"
+            android:textStyle="italic"
+            android:background="@drawable/radio"
+            android:id="@+id/edtIntertitial2"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="ca-app-pub-3940256099942544/1033173712"
+            android:hint="ca-app-pub-3940256099942544/1033173712" />
+        <TextView android:textStyle="bold|italic" android:textColor="@color/blek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set reload Interistial /sec" />
+        <EditText android:textColor="@color/blek"
+            android:background="@drawable/radio" android:id="@+id/edtScond2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="15" android:hint="15" />
+        <TextView android:textStyle="bold|italic" android:textColor="@color/blek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set reload banner /sec" />
+        <EditText android:textColor="@color/blek"  android:background="@drawable/radio" android:id="@+id/edtScond3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="15" android:hint="15" />
+
+        <TextView android:textStyle="bold|italic"
+            android:textColor="@color/blek"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="keywords :" />
+        <EditText
+            android:id="@+id/key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="insurance" />
+    </LinearLayout>
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="14sp"  android:background="@drawable/radio" android:id="@+id/btnStart" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="SIMPAN"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

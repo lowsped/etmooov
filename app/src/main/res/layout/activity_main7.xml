@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/activity_main7" android:background="@color/Background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/edtBanner2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:id="@+id/edtInterstitial2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:id="@+id/edtScond2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:id="@+id/edtScond3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+</RelativeLayout>

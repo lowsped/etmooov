@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:id="@+id/activity_interistial3" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+        android:id="@id/bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/edtBanner2" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="mesothelioma,cancer,insurance,medical,travel,edu" />
+        <TextView android:id="@+id/edtInterstitial2" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="mesothelioma,cancer,insurance,medical,travel,edu" />
+        <TextView android:id="@+id/edtScond2" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:id="@+id/edtScond3" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:id="@+id/titleText" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+</RelativeLayout>
